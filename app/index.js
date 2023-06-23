@@ -8,6 +8,7 @@ export default function Page() {
         <Text style={styles.title}>Hello World</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
         <Link href="/scanner">Scan Item</Link>
+        <Link href="/ingredients/new">New Item</Link>
       </View>
     </View>
   );
