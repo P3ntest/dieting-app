@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "dieting-app",
-    "slug": "dieting-app"
+    "slug": "dieting-app",
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ]
   }
 }
